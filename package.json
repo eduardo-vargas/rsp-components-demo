@@ -1,0 +1,22 @@
+{
+  "name": "react-spectrum-app",
+  "version": "1.0.0",
+  "description": "A barebones React application with Adobe React Spectrum and Parcel",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html --open"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.34.1",
+    "@spectrum-icons/workflow": "^4.2.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-js": "^2.10.0",
+    "@parcel/transformer-react-refresh-wrap": "^2.10.0",
+    "parcel": "^2.10.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
