@@ -1,0 +1,6 @@
+name = "react-spectrum-showcase"
+main = "src/worker.js"
+compatibility_date = "2025-08-01"
+
+[site]
+bucket = "./dist"
